@@ -1,0 +1,74 @@
+Property,VIVO (ontologyURI - https://github.com/vivo-ontologies/vivo-ontology/blob/master/vivo.owl, classURI - http://purl.obolibrary.org/obo/ERO_0000071)
+codeRepository,
+programmingLanguage,
+review,
+runtimePlatform,
+targetProduct,
+applicationCategory,
+applicationSubCategory,
+downloadUrl,
+fileSize,
+installUrl,
+memoryRequirements,
+operatingSystem,
+permissions,
+processorRequirements,
+releaseNotes,
+softwareHelp,
+softwareRequirements,
+softwareVersion,version (propertyURI - http://purl.obolibrary.org/obo/ERO_0000072, rangeURI - http://www.w3.org/2001/XMLSchema#string)
+storageRequirements,
+supportingData,
+author,relatedBy.relates (propertyURI - http://vivoweb.org/ontology/core#relatedBy, http://vivoweb.org/ontology/core#relates, rangeURI - http://vivoweb.org/ontology/core#Authorship, http://xmlns.com/foaf/0.1/Agent)
+citation,
+contributor,
+copyrightHolder,
+copyrightYear,
+dateCreated,
+dateModified,
+datePublished,date/time value (propertyURI - http://vivoweb.org/ontology/core#dateTimeValue, rangeURI - http://vivoweb.org/ontology/core#DateTimeValue)
+editor,
+encoding,
+fileFormat,
+funder,informationResourceSupportedBy.assignedBy (propertyURI - http://vivoweb.org/ontology/core#informationResourceSupportedBy, http://vivoweb.org/ontology/core#assignedBy, rangeURI - http://vivoweb.org/ontology/core#Grant, http://xmlns.com/foaf/0.1/Organization)
+keywords,freetextKeywords (propertyURI - http://vivoweb.org/ontology/core#freetextKeyword, rangeURI - http://www.w3.org/2001/XMLSchema#string)
+license,
+producer,
+provider,
+publisher,
+sponsor,
+version,version (propertyURI - http://purl.obolibrary.org/obo/ERO_0000072, rangeURI - http://www.w3.org/2001/XMLSchema#string)
+isAccessibleForFree,
+isPartOf,partOf (propertyURI - http://purl.obolibrary.org/obo/BFO_0000050, rangeURI - http://purl.obolibrary.org/obo/ERO_0000071)
+hasPart,hasPart (propertyURI - http://purl.obolibrary.org/obo/BFO_0000051, rangeURI - http://purl.obolibrary.org/obo/ERO_0000071)
+position,
+description,abstract (propertyURI - http://purl.org/ontology/bibo/abstract, rangeURI - http://www.w3.org/2000/01/rdf-schema#Literal)
+identifier,SWHID (propertyURI - http://vivoweb.org/ontology/core#swhid, rangeURI - http://www.w3.org/2001/XMLSchema#string)
+name,label (propertyURI - http://www.w3.org/2000/01/rdf-schema#label, rangeURI - http://www.w3.org/2000/01/rdf-schema#Literal)
+sameAs,sameAs (propertyURI - http://www.w3.org/2002/07/owl#sameAs, rangeURI - http://purl.obolibrary.org/obo/ERO_0000071)
+url,has contact info.hasUrl (propertyURI - http://purl.obolibrary.org/obo/ARG_2000028, http://www.w3.org/2006/vcard/ns#hasURL, rangeURI - http://www.w3.org/2006/vcard/ns#Kind, http://www.w3.org/2006/vcard/ns#URL)
+relatedLink,
+givenName,
+familyName,
+email,
+affiliation,
+identifier, relatedBy.relates.ORCID iD (propertyURI - http://vivoweb.org/ontology/core#relatedBy, http://vivoweb.org/ontology/core#relates, http://vivoweb.org/ontology/core#orcidId, rangeURI - http://vivoweb.org/ontology/core#Authorship, http://xmlns.com/foaf/0.1/Agent, http://www.w3.org/2001/XMLSchema#string)
+name, relatedBy.relates.label (propertyURI - http://vivoweb.org/ontology/core#relatedBy, http://vivoweb.org/ontology/core#relates, http://www.w3.org/2000/01/rdf-schema#label, rangeURI - http://vivoweb.org/ontology/core#Authorship, http://xmlns.com/foaf/0.1/Agent, http://www.w3.org/2000/01/rdf-schema#Literal)
+address,
+reviewAspect,
+reviewBody,
+endDate,
+roleName,
+startDate,
+softwareSuggestions,
+maintainer,
+continuousIntegration,
+buildInstructions,
+developmentStatus,
+embargoEndDate,
+funding, informationResourceSupportedBy.label (propertyURI - http://vivoweb.org/ontology/core#informationResourceSupportedBy, http://www.w3.org/2000/01/rdf-schema#label, rangeURI - http://vivoweb.org/ontology/core#Grant, http://www.w3.org/2000/01/rdf-schema#Literal)
+issueTracker,
+referencePublication,
+readme,
+hasSourceCode,
+isSourceCodeOf,
